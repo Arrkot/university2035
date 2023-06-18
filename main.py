@@ -40,5 +40,6 @@ def palindrom12(s):
         last += -1
     return result
 print(palindrom12('лепсспел'))
-print(palindrom12('лепсспел1'))
+print(palindrom12('helloworld'))
+
 

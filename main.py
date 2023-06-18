@@ -28,5 +28,17 @@ def strcounter(s):
 strcounter(s)
 
 
-
+def palindrom12(s):
+    result = True
+    first = 0
+    last = len(s)-1
+    while first < last:
+        if s[first] != s[last]:
+            result = False
+            break
+        first += 1
+        last += -1
+    return result
+print(palindrom12('лепсспел'))
+print(palindrom12('лепсспел1'))
 
